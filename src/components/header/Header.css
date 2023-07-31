@@ -1,0 +1,21 @@
+.headerLink{
+  text-decoration: none;
+  color: rgb(243, 77, 62);
+  position: relative;
+  top: 10px;
+  transition: font-size 0.3s ease;
+}
+
+.headerLink:hover{
+  color: rgb(233, 28, 10);
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+
+.header{
+  height: 525px; 
+  background-image: url("../../../public/images/How-to-Make-Beer-at-Home.jpg");
+  min-width: 950px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,28 @@
+.recipeList{
+  list-style-type: none;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
+  max-height: 93vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(62, 61, 70);
+  min-width: 950px;
+}
+
+.recipeItem{
+  width: 900px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.recipeItem:first-of-type {
+  margin-top: 10px;
+}
+
+.recipeItem.selected{
+  background-color: #c9c2c2;
+}

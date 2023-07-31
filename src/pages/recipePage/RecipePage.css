@@ -1,0 +1,23 @@
+.postPagePar{
+  margin: 0;
+  padding: 16px;
+  box-sizing: border-box;
+  min-width: 950px;
+  position: relative;
+}
+
+.ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.divForBeerImage{
+  position: absolute;
+  top: 80px;
+  left: 180px;
+}
+
+.beerImage{
+  height: 400px;
+}

@@ -1,12 +1,10 @@
-import { useLocation, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import React from 'react';
 import './RecipePage.css';
 import { useRecipeStore } from "../../store/store";
 
 const RecipePage = () => {
   const params = useParams();
-  const location = useLocation();
-  console.log('location', location);
   const recipes = useRecipeStore((state) => state.recipes);
 
   const recipe = recipes.find(recipe => recipe.id === +(params.id))

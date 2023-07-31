@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import { Route, Routes } from "react-router-dom";
 import Layout from './components/layout/Layout';
@@ -11,9 +11,9 @@ function App() {
         <div className="App">
             <GlobalStyles />
             <Routes>
-                <Route path="/" element={<Layout/>}>
+                <Route path="/testtask_beer_recipes_zustand/" element={<Layout/>}>
                     <Route index element={<RecipesPage/>}/>
-                    <Route path='recipe/:id/' element={<RecipePage/>}/>
+                    <Route path='/testtask_beer_recipes_zustand/recipe/:id/' element={<RecipePage/>}/>
                 </Route>
             </Routes>
         </div>

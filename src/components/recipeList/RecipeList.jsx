@@ -40,7 +40,7 @@ const RecipeList = () => {
   }, []);
 
   const handleRecipeClick = (id) => {
-    navigate(`/recipe/${id}`);
+    navigate(`/testtask_beer_recipes_zustand/recipe/${id}`);
   };
 
   const handleDeleteClick = () => {
@@ -100,7 +100,6 @@ const RecipeList = () => {
           </li>
         ))}
       </ul >
-      {/*Созд портал компонент DeleteButton для логики по отображению кнопки*/}
       <DeleteButton
         showBtn={selectedRecipes.size > 0}
         onClick={handleDeleteClick}
@@ -110,4 +109,3 @@ const RecipeList = () => {
 };
 
 export default RecipeList;
-

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/testtask_beer_recipes_zustand/static/css/main.1e8872e2.css",
-    "main.js": "/testtask_beer_recipes_zustand/static/js/main.dfc8f7c1.js",
+    "main.js": "/testtask_beer_recipes_zustand/static/js/main.a4dda852.js",
     "static/media/How-to-Make-Beer-at-Home.jpg": "/testtask_beer_recipes_zustand/static/media/How-to-Make-Beer-at-Home.979cfbc5c92776b1c522.jpg",
     "index.html": "/testtask_beer_recipes_zustand/index.html",
     "main.1e8872e2.css.map": "/testtask_beer_recipes_zustand/static/css/main.1e8872e2.css.map",
-    "main.dfc8f7c1.js.map": "/testtask_beer_recipes_zustand/static/js/main.dfc8f7c1.js.map"
+    "main.a4dda852.js.map": "/testtask_beer_recipes_zustand/static/js/main.a4dda852.js.map"
   },
   "entrypoints": [
     "static/css/main.1e8872e2.css",
-    "static/js/main.dfc8f7c1.js"
+    "static/js/main.a4dda852.js"
   ]
 }
